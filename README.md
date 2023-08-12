@@ -1,13 +1,15 @@
 # Hugging Face "Deep Reinforcement Learning" Course
 
-- Course: https://huggingface.co/learn/deep-rl-course/unit0/introduction
-- Blog: https://discuss.huggingface.co/
+- Course: [Link](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
+- Blog: [Link](https://discuss.huggingface.co/)
 - Discord
-  - #rl-announcements: where we give the latest information about the course.
-  - [#rl-discussions]((https://discord.com/channels/879548962464493619/915190889243103282)): where you can chat about RL and share information.
-  - #rl-study-group: where you can create and join study groups.
-  - #rl-i-made-this: where you can share your projects and models.
+  - `#rl-announcements`: where we give the latest information about the course.
+  - [`#rl-discussions`]((https://discord.com/channels/879548962464493619/915190889243103282)): where you can chat about RL and share information.
+  - `#rl-study-group`: where you can create and join study groups.
+  - `#rl-i-made-this`: where you can share your projects and models.
 mkdir 
+- Check course progress: [Link](https://huggingface.co/spaces/ThomasSimonini/Check-my-progress-Deep-RL-Course)
+- Leaderboard: [Link](https://huggingface.co/spaces/huggingface-projects/Deep-Reinforcement-Learning-Leaderboard)
 # My Content
 - [Unit 0. Welcome to the course](./0-Welcome-to-the-course/)
 - [Unit 1. Introduction to Deep Reinforcement Learning](./1-Introduction-to-Deep-Reinforcement-Learning/)
