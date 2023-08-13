@@ -23,6 +23,6 @@ mkdir
   - [1.8  Summary](./1-Introduction-to-Deep-Reinforcement-Learning/1.1%20to%201.9.ipynb)
   - [1.9  Glossary](./1-Introduction-to-Deep-Reinforcement-Learning/1.1%20to%201.9.ipynb)
   - [1.10  Hands-on](./1-Introduction-to-Deep-Reinforcement-Learning/1.1%20to%201.9.ipynb)
-  - [1.11  Quiz](./1-Introduction-to-Deep-Reinforcement-Learning/1.1%20to%201.9.ipynb)
+  - [1.11  Quiz](./1-Introduction-to-Deep-Reinforcement-Learning/1.11-Quiz.pdf)
   - [1.12  Conclusion](./1-Introduction-to-Deep-Reinforcement-Learning/1.1%20to%201.9.ipynb)
   - [1.13  Additional Readings](./1-Introduction-to-Deep-Reinforcement-Learning/1.1%20to%201.9.ipynb)
