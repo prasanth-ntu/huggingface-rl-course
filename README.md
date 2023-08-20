@@ -54,4 +54,4 @@ mkdir
 
 # Todo's
 - [ ]  Move unit1.ipynb from git to google drive as there are some issues in retaining the outputs while storing the google colab in git. Also, add the markdown comments for key hyperparams/configs as they are lost in the saving issue
-- [ ]  
+- [ ] Refresh on Q-learning pseudo-code and source-code conceptually
