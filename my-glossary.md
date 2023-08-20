@@ -5,6 +5,8 @@
 | Bellman equation | Instead of calculating each value as the sum of the expected return, <b>which is a long process</b>, we calculate the value as the <b>sum of immediate reward + the discounted value of the state that follows<b>. |
 | Continuous taskss | Tasks that has a starting point, but no ending point. |
 | <a id="cumulative-reward"> Cumulative reward | Sum of all rewards in a sequence. |
+| Deep Q Algorithm |  |
+| <a id="deep-q-learning"></a>Deep Q-Learning | Instead of using a [Q-table](#q-table), deep Q-learning uses a Neural Network that takes a state and approximates Q-valuse  for each action based on that state. |
 | Deep RL | Introduced deep neural networks to [RL](#RL) problems, hence the name "deep". |
 | <a id="discount"></a>Discount | Performed because rewards obtained at the start are more likely to happen as they are more predictable than long-term rewards. <br> - Smaller discount (larger gamma) ⇒ Agent cares more about long-term reward. <br> - Larger discount (smaller gamma) ⇒ Agent cares more about short-term reward. |
 | <a id="environment"></a>Environment | Simulated world where an <b>agent can learn by interacting with it</b>. |
@@ -19,8 +21,8 @@
 | <a id="on-policy"></a>On-policy | Using the <b>same policy for acting (inference) and updating (training)</b>. <br>Example: SARSA learning.|
 | <a id="policy"></a>Policy | <b>Agent's brain (or) decision-making process</b>. Tells the agent what action to take, given a state.<br>Two types: [Policy-based](#policy-based), [Value-based](#value-based) |
 | <a id="policy-based"></a>Policy-based methods | Trains a policy directly to <b>learn which action to take given a state</b>. <br> - Input: State <br>- Output: Action to take at that state. <br>Two types: Deterministic, Stochastic.| 
-| <a id="q-function"></a>Q-Function | An <b>[action-value function](#action-value-function)</b> that determines the value of being at a particular state and taking a specific action at that state. <br> Q-function is encoded by a [Q-table](#q-table). Given a state and a function, Q-function will search its Q-table for the corresponding value. |
-| <a id="q-learning"></a>Q-Learning |<b>[Off-policy](#off-policy) value-based method that uses a [TD](#temporal-difference-learning) approach to train its [action-value function](#action-value-funciton)</b>.<br> An <b>RL algorithm we use to train [Q-function](#q-function).</b>  | 
+| <a id="q-function"></a>Q-Function | An <b>[action-value function](#action-value-function)</b> that determines the value of being at a particular state and taking a specific action at that state. <br> Q-function is encoded by a [Q-table](#q-table). Given a state and a function, Q-function will search its Q-table for the corresponding value. <br> The <b>Q comes from the "Quality" of that action at that state.</b> |
+| <a id="q-learning"></a>Q-Learning |<b>[Off-policy](#off-policy) value-based method that uses a [TD](#temporal-difference-learning) approach to train its [action-value function](#action-value-funciton)</b>.<br> An <b>RL algorithm we use to train [Q-function](#q-function).</b><br><br> Works well with small state space environments like `FrozenLake` (16 states), `Taxi-v3` (500 states). However, it's not scalable for states and action spaces that are not small enough. For such cases, we have to use [Deep Q-Learning](#deep-q-learning). | 
 | <a id="q-table"></a>Q-Table | A <b>table where each cell corresponds to state-action pair</b>. Think of it like a <b>memory or a cheat-sheet of our [Q-function](#q-function)</b>. | 
 | <a id="reward"></a>Reward | Fundamental factor in RL. Tells agent whether the action taken is good/bad. <b>It's the feedback we get from the environment</b> after performing an action at a state. |
 | Reward hypothesis | [RL](#RL) problems can be formulated as a maximization of the (cumulative) reward | 
