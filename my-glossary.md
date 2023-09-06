@@ -2,8 +2,8 @@
 | - | - |
 | Action space | Set of all possible actions in an [environment](#environment). <br>Two types: <br>- [Discrete space](#discrete-space)<br>- [Continuous space](#continuous-space)  |
 | <a id="action-value-function"></a>Action-value function | For each state and action pair, the action-value function outputs the expected reutrn if the agent <b>starts at that state, takes an action</b>, and then follows the policy forever after. |  
-| <a id="agent"></a>Agent | To make intelligent decisions, learns from the [environment](#environment) by interacting with it through trial and error and receiving [rewards](#reward) (positive or negative) as unique feedback. | 
-| Bellman equation | Simplifies our state value or action-value calculation.<br> Instead of calculating each value as the sum of the expected return (i.e., sum of all the rewards if agent starts at that state), <b>which is a long process</b>, we calculate the value as the <b>sum of immediate reward + the discounted value of the state that follows<b>.<br> Agent's goal is to maximise the [cumulative reward](#cumulative-reward).|
+| <a id="agent"></a>Agent | To make intelligent decisions, learns from the [environment](#environment) by interacting with it through trial and error and receiving [rewards](#reward) (positive or negative) as unique feedback.<br> Agent's goal is to maximise the [cumulative reward](#cumulative-reward). | 
+| Bellman equation | Simplifies our state value or action-value calculation.<br> Instead of calculating each value as the sum of the expected return (i.e., sum of all the rewards if agent starts at that state), <b>which is a long process</b>, we calculate the value as the <b>sum of immediate reward + the discounted value of the state that follows<b>.|
 | <a id="continuous-task"></a>Continuous tasks | Tasks that has a starting point, but no ending point. |
 | <a id="continuous-space"></a>Continuous space | Number of possible actions is infinite. <br>e.g., Self driving car. |
 | <a id="cumulative-reward"> Cumulative reward | Sum of all rewards in a sequence. <br> Variant: Diccounted expected cumulative reward.|
