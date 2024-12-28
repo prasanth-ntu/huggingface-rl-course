@@ -62,6 +62,8 @@ mkdir
 - [My Glossary]()
 
 # Todo's
-- [ ]  Move `unit1.ipynb` from git to google drive as there are some issues in retaining the outputs while storing the google colab in git. Also, add the markdown comments for key hyperparams/configs as they are lost in the saving issue
-- [ ] Refresh on Q-learning pseudo-code and source-code conceptually
-- [ ] The 3 steps in Deep Q-learning seems slightly unclear (especially, the 3rd one: Double DQN)
+- [x]  Move `unit1.ipynb` from git to google drive as there are some issues in retaining the outputs while storing the google colab in git. Also, add the markdown comments for key hyperparams/configs as they are lost in the saving issue
+- [x] Refresh on Q-learning pseudo-code and source-code conceptually
+- [ ] The 3 steps in Deep Q-learning (in Unit 3) seems slightly unclear (especially, the 3rd one: Double DQN)
+- [ ] Number of state spaces in Atari and LunarLander [Discord link](https://discord.com/channels/879548962464493619/915190889243103282/1148959980561641492)
+- [ ] Try optuna for Hopt with LunarLander-v2 or SpaceInvaders (Bonus-Unit-2)
